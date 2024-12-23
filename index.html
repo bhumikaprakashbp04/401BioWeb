@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #e3ffe7, #d9e7ff);
+            color: #333;
+        }
+        header {
+            background: #6c5ce7;
+            color: #fff;
+            text-align: center;
+            padding: 3rem 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        header h1 {
+            font-size: 4rem;
+            margin: 0;
+            letter-spacing: 3px;
+        }
+        header p {
+            font-size: 1.5rem;
+            margin: 0.5rem 0 0;
+        }
+        nav {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #6c5ce7;
+            margin: 0 1.5rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            border: 2px solid #6c5ce7;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            background: #6c5ce7;
+            color: #fff;
+        }
+        .hero {
+            text-align: center;
+            padding: 5rem 2rem;
+            background: url('profilePic.jpg') no-repeat center center/cover;
+
+            border-radius: 10px;
+            margin: 2rem;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1.2s ease-in-out;
+            color: #fff;
+            position: relative;
+        }
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+        .hero h2 {
+            font-size: 3rem;
+            position: relative;
+            color: #e3ffe7;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin: 1rem 0;
+            position: relative;
+        }
+        .cta {
+            text-align: center;
+            margin-top: 3rem;
+        }
+        .cta a {
+            text-decoration: none;
+            font-size: 1.2rem;
+            color: #fff;
+            background: #6c5ce7;
+            padding: 0.8rem 2rem;
+            border-radius: 5px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: background 0.3s ease;
+        }
+        .cta a:hover {
+            background: #5143a5;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem 0;
+            background: #6c5ce7;
+            color: #fff;
+            margin-top: 2rem;
+            border-top: 4px solid #00cec9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>Your one-stop portfolio and bio</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="bio.html">Bio</a>
+    </nav>
+    <div class="hero">
+        <h2>Discover More About Me</h2>
+        <p>Explore my work, learn about my journey, and get in touch for collaborations.</p>
+    </div>
+    <div class="cta">
+        <a href="resume.html">View My Resume</a>
+    </div>
+    <footer>
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
